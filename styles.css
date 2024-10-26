@@ -5,22 +5,22 @@ body {
     color: #333;
     margin: 0;
     padding: 0;
-  }
-  
-  /* Header and navigation */
-  header {
+}
+
+/* Header and navigation */
+header {
     background-color: white;
     padding: 30px;
     text-align: center;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  header img {
+}
+
+header img {
     width: 350px; /* Increased size for better visibility */
     margin: 30px 0;
-  }
-  
-  nav ul {
+}
+
+nav ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
@@ -30,32 +30,32 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  
-  nav ul li {
+}
+
+nav ul li {
     display: inline;
     margin: 0 15px;
-  }
-  
-  nav a {
+}
+
+nav a {
     color: white;
     text-decoration: none;
     font-weight: bold;
     padding: 10px 15px;
     border-radius: 5px;
     transition: background-color 0.3s;
-  }
-  
-  nav a:hover {
+}
+
+nav a:hover {
     background-color: #003f6f;
-  }
-  
-  /* Sections and content */
-  main {
+}
+
+/* Sections and content */
+main {
     padding: 40px;
-  }
-  
-  .intro, .about, .services, .contact {
+}
+
+.intro, .about, .services, .contact {
     background-color: #ffffff;
     padding: 30px;
     margin: 20px auto;
@@ -63,14 +63,14 @@ body {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     max-width: 800px;
     text-align: center;
-  }
-  
-  .intro h2, .highlight-services h3, .about h2, .services h2, .contact h2 {
+}
+
+.intro h2, .highlight-services h3, .about h2, .services h2, .contact h2 {
     color: #005b96;
-  }
-  
-  /* Service highlights */
-  .highlight-services {
+}
+
+/* Service highlights */
+.highlight-services {
     padding: 20px;
     text-align: center;
     background-color: #d1e7f7;
@@ -78,19 +78,19 @@ body {
     border-radius: 10px;
     max-width: 800px;
     box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  .highlight-services ul {
+}
+
+.highlight-services ul {
     padding: 0;
     list-style-type: none;
-  }
-  
-  .highlight-services ul li {
+}
+
+.highlight-services ul li {
     margin: 10px 0;
     font-size: 18px;
-  }
-  
-  .button {
+}
+
+.button {
     display: inline-block;
     padding: 12px 25px;
     background-color: #005b96;
@@ -99,116 +99,109 @@ body {
     border-radius: 5px;
     margin-top: 20px;
     transition: background-color 0.3s;
-  }
-  
-  .button:hover {
+}
+
+.button:hover {
     background-color: #003f6f;
-  }
-  
-  /* Form styling */
-  form {
+}
+
+/* Locations Section */
+.locations {
+    text-align: center;
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin: 40px auto;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    max-width: 1200px;
+}
+
+/* Section for images first */
+.location-images {
     display: flex;
-    flex-direction: column;
-    gap: 15px;
-  }
-  
-  form input, form textarea {
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 16px;
-  }
-  
-  form button {
-    background-color: #005b96;
-    color: white;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-  }
-  
-  form button:hover {
-    background-color: #003f6f;
-  }
-  
-  /* Footer */
-  footer {
+    justify-content: center; /* Center the images */
+    gap: 20px;
+    padding: 20px 0;
+}
+
+/* Style for each image */
+.location-image {
+    width: 40%; /* Adjust width for side-by-side alignment */
+    max-width: 350px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Arrange the text boxes in a row */
+.location-wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px 0;
+}
+
+/* Each text box */
+.location-box {
+    background-color: #eaf4fc;
+    border-radius: 10px;
+    padding: 20px;
+    width: 30%; /* Adjust width to fit three in a row */
+    min-width: 250px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+/* Footer */
+footer {
     background-color: #333;
     color: white;
     text-align: center;
     padding: 15px;
     margin-top: 40px;
-  }
+}
 
-/* Image Gallery */
-.image-gallery {
-    text-align: center;
-    margin: 40px 0;
-  }
-  
-  .image-gallery h2 {
-    color: #005b96; /* Title color */
-  }
-  
-  .gallery {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px; /* Space between images */
-    max-width: 800px;
-    margin: 0 auto;
-  }
-  
-  .gallery img {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  /* Image Gallery */
-.image-gallery {
-    text-align: center;
-    margin: 40px 0;
-  }
-  
-  .image-gallery h2 {
-    color: #005b96; /* Title color */
-  }
-  
-  .gallery {
-    display: flex;
-    flex-direction: column; /* Stack images vertically */
-    align-items: center; /* Center align the images */
-    gap: 20px; /* Space between stacked items */
-  }
-  
-  .image-stack {
-    display: flex;
-    flex-direction: column; /* Stack the first two images vertically */
-    gap: 20px; /* Space between the images */
-  }
-  
-  .image-side-by-side {
-    display: flex; /* Align the last two images side by side */
-    gap: 20px; /* Space between the images */
-  }
-  
-  /* Increase size of the first two images */
-  .image-stack img {
-    width: 100%; /* Make the images responsive */
+/* Style for logo button */
+.logo-button {
+    width: 50px; /* Adjust this value to your desired size */
     height: auto; /* Maintain aspect ratio */
-    max-width: 600px; /* Adjust the maximum width as needed */
-    border-radius: 10px;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  .image-side-by-side img {
-    width: 100%; /* Make the images responsive */
+    border: none; /* Remove any border */
+    background: transparent; /* No background */
+    cursor: pointer; /* Change cursor to pointer */
+    outline: none; /* Remove outline on focus */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+}
+
+/* Hover effects for the logo button */
+.logo-button:hover {
+    transform: scale(1.1); /* Slightly increase size on hover */
+    box-shadow: none; /* Adjust the shadow */
+}
+
+/* Logo image style */
+.logo {
+    max-width: 100px; /* Set the desired maximum width */
+    height: auto; /* Keep the aspect ratio */
+}
+
+/* Centering the text in the image-gallery section */
+.image-gallery {
+    text-align: center; /* Center text within the section */
+    margin: 40px auto; /* Add some margin above and below */
+}
+
+/* Style for the gallery images */
+.gallery {
+    display: flex; /* Use flexbox for the images */
+    justify-content: center; /* Center images horizontally */
+    gap: 20px; /* Add space between images */
+    flex-wrap: wrap; /* Allow images to wrap to the next line if needed */
+}
+
+/* Individual image styling */
+.gallery-image {
+    max-width: 100%; /* Make sure images are responsive */
     height: auto; /* Maintain aspect ratio */
-    max-width: 300px; /* Adjust the maximum width as needed */
-    border-radius: 10px;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
-  }
+    border-radius: 10px; /* Optional: add rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Optional: add a shadow effect */
+}
