@@ -1,0 +1,214 @@
+/* Base styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #eaf4fc;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header and navigation */
+  header {
+    background-color: white;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  header img {
+    width: 350px; /* Increased size for better visibility */
+    margin: 30px 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    background-color: #005b96;
+    height: 50px; /* Adjusted height to match the button hover size */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  nav a:hover {
+    background-color: #003f6f;
+  }
+  
+  /* Sections and content */
+  main {
+    padding: 40px;
+  }
+  
+  .intro, .about, .services, .contact {
+    background-color: #ffffff;
+    padding: 30px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    text-align: center;
+  }
+  
+  .intro h2, .highlight-services h3, .about h2, .services h2, .contact h2 {
+    color: #005b96;
+  }
+  
+  /* Service highlights */
+  .highlight-services {
+    padding: 20px;
+    text-align: center;
+    background-color: #d1e7f7;
+    margin: 20px auto;
+    border-radius: 10px;
+    max-width: 800px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .highlight-services ul {
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  .highlight-services ul li {
+    margin: 10px 0;
+    font-size: 18px;
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #005b96;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+  }
+  
+  .button:hover {
+    background-color: #003f6f;
+  }
+  
+  /* Form styling */
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  form input, form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  form button {
+    background-color: #005b96;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  form button:hover {
+    background-color: #003f6f;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+  }
+
+/* Image Gallery */
+.image-gallery {
+    text-align: center;
+    margin: 40px 0;
+  }
+  
+  .image-gallery h2 {
+    color: #005b96; /* Title color */
+  }
+  
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px; /* Space between images */
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Image Gallery */
+.image-gallery {
+    text-align: center;
+    margin: 40px 0;
+  }
+  
+  .image-gallery h2 {
+    color: #005b96; /* Title color */
+  }
+  
+  .gallery {
+    display: flex;
+    flex-direction: column; /* Stack images vertically */
+    align-items: center; /* Center align the images */
+    gap: 20px; /* Space between stacked items */
+  }
+  
+  .image-stack {
+    display: flex;
+    flex-direction: column; /* Stack the first two images vertically */
+    gap: 20px; /* Space between the images */
+  }
+  
+  .image-side-by-side {
+    display: flex; /* Align the last two images side by side */
+    gap: 20px; /* Space between the images */
+  }
+  
+  /* Increase size of the first two images */
+  .image-stack img {
+    width: 100%; /* Make the images responsive */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 600px; /* Adjust the maximum width as needed */
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .image-side-by-side img {
+    width: 100%; /* Make the images responsive */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 300px; /* Adjust the maximum width as needed */
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  }
